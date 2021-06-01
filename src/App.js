@@ -8,8 +8,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Greet />
-        <Welcome />
+        {/* functional componnent */}
+        <Greet name="Bona" job="Banker" />
+        <Greet name="Kosal" job="IT" />
+        <Greet name="Vannak" job="Designer" />
+        {/* <Welcome /> */}
+
+        {/* class component */}
+        <Welcome name="Bona" job="Banker" />
+        <Welcome name="Kosal" job="IT" />
+        <Welcome name="Vannak" Job="Designer" />
       </div>
     );
   }
