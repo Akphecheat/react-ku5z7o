@@ -6,12 +6,13 @@ import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <EventBind />
+        <ParentComponent />
       </div>
     );
   }
